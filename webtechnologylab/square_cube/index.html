@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Squre and cubes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            color: #333;
+            width: 500px;
+        }
+        th{
+            background: #2676af;
+        }
+    </style>
+    <script>
+        document.write( "<center><table> <tr> <th>Number</th> <th>Square</th> <th>Cube</th> </tr>" ) 
+        for(var n=0; n<=10; n++) 
+        { 
+        document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" + n*n*n + "</td></tr>" ) 
+        } 
+        document.write( "</table></center>" ) 
+  </script>
+</head>
+</html>
